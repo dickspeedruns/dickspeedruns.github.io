@@ -7,8 +7,9 @@ body{
 
 .leaderboard {
 	display: flex;
-	justify-content: space-between; /* Distribute space between divs */
-	align-items: flex-start; /* Align vertically at the top */
+	justify-content: space-between;
+	align-items: flex-start;
+	font-weight: bold;
 }
 
 a { 
