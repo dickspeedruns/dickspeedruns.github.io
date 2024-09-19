@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(10, 10, 10);
+	color: rgb(201, 201, 201);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.leaderboard {
+	display: flex;
+	justify-content: space-between; /* Distribute space between divs */
+	align-items: flex-start; /* Align vertically at the top */
+}
+
+a { 
+	color: inherit;
+}
+
+.first{
+	color: goldenrod;
+}
+
+.second{
+	color: paleturquoise;
+}
+
+.third{
+	color: rgb(192, 117, 46);
+}
+
+.first, .second, .third {
+	margin-bottom: 20px;
+}
+
+.names, .times, .videos{
+/* 	display: grid;
+	align-items: center;
+    justify-content:center; */
+	flex: auto;
+}
+
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+	color: rgb(254, 255, 185);
+}
